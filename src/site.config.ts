@@ -36,11 +36,11 @@ export const menuLinks: { path: string; title: string }[] = [
 	},
 	{
 		path: "/posts/",
-		title: "博客",
+		title: "Wiki",
 	},
 	{
 		path: "/notes/",
-		title: "笔记",
+		title: "牢骚",
 	},
 ];
 
