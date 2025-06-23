@@ -1,3 +1,11 @@
+---
+title: About
+description: "-"
+publishDate: 2020-07-14
+tags:
+  - Linux
+ogImage: /social-card.avif
+---
 ## Introduce
 
 基于[**NotionNext**](https://docs.tangly1024.com/about)新搭建的Wiki  
