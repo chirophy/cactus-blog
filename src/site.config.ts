@@ -31,10 +31,6 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "主页",
 	},
 	{
-		path: "/about/",
-		title: "关于",
-	},
-	{
 		path: "/posts/",
 		title: "Wiki",
 	},
@@ -42,12 +38,16 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/notes/",
 		title: "牢骚",
 	},
+  	{
+		path: "/about/",
+		title: "关于",
+	},
 ];
 
 // https://expressive-code.com/reference/configuration/
 export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 	styleOverrides: {
-		borderRadius: "4px",
+		borderRadius: "6px",
 		codeFontFamily:
 			'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;',
 		codeFontSize: "0.875rem",
